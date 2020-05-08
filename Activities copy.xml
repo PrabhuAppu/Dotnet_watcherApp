@@ -1,0 +1,126 @@
+<office>
+  <xs:schema id="office" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="office" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="activities">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="filename" type="xs:string" minOccurs="0" />
+                <xs:element name="filedesctiption" type="xs:string" minOccurs="0" />
+                <xs:element name="productname" type="xs:string" minOccurs="0" />
+                <xs:element name="windowtitle" type="xs:string" />
+                <xs:element name="activetime" type="xs:string" minOccurs="0" />
+                <xs:element name="opentime" type="xs:string" minOccurs="0" />
+                <xs:element name="changetime" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//activities" />
+        <xs:field xpath="windowtitle" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <activities>
+    <filename>C:\Windows\system32\cmd.exe</filename>
+    <filedesctiption>Windows Command Processor</filedesctiption>
+    <productname>Microsoft® Windows® Operating System</productname>
+    <windowtitle>C:\Windows\system32\cmd.exe - dotnet  run</windowtitle>
+    <activetime>00:00:27</activetime>
+    <opentime>07-05-2020 Thu 12:30:50</opentime>
+    <changetime>07-05-2020 Thu 12:15:48</changetime>
+  </activities>
+  <activities>
+    <filename>C:\Users\PRABHUAPPU\AppData\Local\Programs\Microsoft VS Code\Code.exe</filename>
+    <filedesctiption>Visual Studio Code</filedesctiption>
+    <productname>Visual Studio Code</productname>
+    <windowtitle>Program.cs - SampleApp - Visual Studio Code</windowtitle>
+    <activetime>00:00:17</activetime>
+    <opentime>07-05-2020 Thu 12:19:38</opentime>
+    <changetime>07-05-2020 Thu 12:19:39</changetime>
+  </activities>
+  <activities>
+    <filename>C:\Users\PRABHUAPPU\AppData\Local\Programs\Microsoft VS Code\Code.exe</filename>
+    <filedesctiption>Visual Studio Code</filedesctiption>
+    <productname>Visual Studio Code</productname>
+    <windowtitle>Activities.xml - SampleApp - Visual Studio Code</windowtitle>
+    <activetime>00:01:02</activetime>
+    <opentime>07-05-2020 Thu 12:20:10</opentime>
+    <changetime>07-05-2020 Thu 12:20:27</changetime>
+  </activities>
+  <activities>
+    <filename>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</filename>
+    <filedesctiption>Google Chrome</filedesctiption>
+    <productname>Google Chrome</productname>
+    <windowtitle>TimeSpan.Parse Method (System) | Microsoft Docs - Google Chrome</windowtitle>
+    <activetime>00:00:00</activetime>
+    <opentime>07-05-2020 Thu 12:16:21</opentime>
+    <changetime>07-05-2020 Thu 12:16:24</changetime>
+  </activities>
+  <activities>
+    <filename>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</filename>
+    <filedesctiption>Google Chrome</filedesctiption>
+    <productname>Google Chrome</productname>
+    <windowtitle>WhatsApp - Google Chrome</windowtitle>
+    <activetime>00:00:00</activetime>
+    <opentime>07-05-2020 Thu 12:16:24</opentime>
+    <changetime>07-05-2020 Thu 12:16:32</changetime>
+  </activities>
+  <activities>
+    <filename>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</filename>
+    <filedesctiption>Google Chrome</filedesctiption>
+    <productname>Google Chrome</productname>
+    <windowtitle>YouTube - Google Chrome</windowtitle>
+    <activetime>00:00:00</activetime>
+    <opentime>07-05-2020 Thu 12:16:32</opentime>
+    <changetime>07-05-2020 Thu 12:16:55</changetime>
+  </activities>
+  <activities>
+    <filename>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</filename>
+    <filedesctiption>Google Chrome</filedesctiption>
+    <productname>Google Chrome</productname>
+    <windowtitle>https://www.netflix.com/browse - Google Chrome</windowtitle>
+    <activetime>00:00:00</activetime>
+    <opentime>07-05-2020 Thu 12:16:55</opentime>
+    <changetime>07-05-2020 Thu 12:16:57</changetime>
+  </activities>
+  <activities>
+    <filename>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</filename>
+    <filedesctiption>Google Chrome</filedesctiption>
+    <productname>Google Chrome</productname>
+    <windowtitle>Netflix - Google Chrome</windowtitle>
+    <activetime>00:03:50</activetime>
+    <opentime>07-05-2020 Thu 12:21:46</opentime>
+    <changetime>07-05-2020 Thu 12:30:50</changetime>
+  </activities>
+  <activities>
+    <filename>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</filename>
+    <filedesctiption>Google Chrome</filedesctiption>
+    <productname>Google Chrome</productname>
+    <windowtitle>New Tab - Google Chrome</windowtitle>
+    <activetime>00:00:06</activetime>
+    <opentime>07-05-2020 Thu 12:19:55</opentime>
+    <changetime>07-05-2020 Thu 12:19:58</changetime>
+  </activities>
+  <activities>
+    <filename>C:\Windows\Explorer.EXE</filename>
+    <filedesctiption>Windows Explorer</filedesctiption>
+    <productname>Microsoft® Windows® Operating System</productname>
+    <windowtitle />
+    <activetime>00:00:00</activetime>
+    <opentime>07-05-2020 Thu 12:21:35</opentime>
+    <changetime>07-05-2020 Thu 12:21:38</changetime>
+  </activities>
+  <activities>
+    <filename>C:\Windows\system32\taskmgr.exe</filename>
+    <filedesctiption>Windows Task Manager</filedesctiption>
+    <productname>Microsoft® Windows® Operating System</productname>
+    <windowtitle>Windows Task Manager</windowtitle>
+    <activetime>00:00:00</activetime>
+    <opentime>07-05-2020 Thu 12:21:38</opentime>
+    <changetime>07-05-2020 Thu 12:21:46</changetime>
+  </activities>
+</office>

@@ -1,0 +1,13 @@
+C:\Users\PRABHUAPPU\Documents\Project\Dotnet\SampleApp\obj\Debug\netcoreapp3.1\SampleApp.csprojAssemblyReference.cache
+C:\Users\PRABHUAPPU\Documents\Project\Dotnet\SampleApp\obj\Debug\netcoreapp3.1\SampleApp.csproj.CoreCompileInputs.cache
+C:\Users\PRABHUAPPU\Documents\Project\Dotnet\SampleApp\obj\Debug\netcoreapp3.1\SampleApp.AssemblyInfoInputs.cache
+C:\Users\PRABHUAPPU\Documents\Project\Dotnet\SampleApp\obj\Debug\netcoreapp3.1\SampleApp.AssemblyInfo.cs
+C:\Users\PRABHUAPPU\Documents\Project\Dotnet\SampleApp\bin\Debug\netcoreapp3.1\SampleApp.exe
+C:\Users\PRABHUAPPU\Documents\Project\Dotnet\SampleApp\bin\Debug\netcoreapp3.1\SampleApp.deps.json
+C:\Users\PRABHUAPPU\Documents\Project\Dotnet\SampleApp\bin\Debug\netcoreapp3.1\SampleApp.runtimeconfig.json
+C:\Users\PRABHUAPPU\Documents\Project\Dotnet\SampleApp\bin\Debug\netcoreapp3.1\SampleApp.runtimeconfig.dev.json
+C:\Users\PRABHUAPPU\Documents\Project\Dotnet\SampleApp\bin\Debug\netcoreapp3.1\SampleApp.dll
+C:\Users\PRABHUAPPU\Documents\Project\Dotnet\SampleApp\bin\Debug\netcoreapp3.1\SampleApp.pdb
+C:\Users\PRABHUAPPU\Documents\Project\Dotnet\SampleApp\obj\Debug\netcoreapp3.1\SampleApp.dll
+C:\Users\PRABHUAPPU\Documents\Project\Dotnet\SampleApp\obj\Debug\netcoreapp3.1\SampleApp.pdb
+C:\Users\PRABHUAPPU\Documents\Project\Dotnet\SampleApp\obj\Debug\netcoreapp3.1\SampleApp.genruntimeconfig.cache

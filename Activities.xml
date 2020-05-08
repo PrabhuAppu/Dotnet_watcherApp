@@ -1,0 +1,72 @@
+<office>
+  <xs:schema id="office" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="office" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="activities">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="filename" type="xs:string" minOccurs="0" />
+                <xs:element name="filedesctiption" type="xs:string" minOccurs="0" />
+                <xs:element name="productname" type="xs:string" minOccurs="0" />
+                <xs:element name="windowtitle" type="xs:string" />
+                <xs:element name="activetime" type="xs:string" minOccurs="0" />
+                <xs:element name="opentime" type="xs:string" minOccurs="0" />
+                <xs:element name="changetime" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//activities" />
+        <xs:field xpath="windowtitle" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <activities>
+    <filename>C:\Windows\system32\cmd.exe</filename>
+    <filedesctiption>Windows Command Processor</filedesctiption>
+    <productname>Microsoft® Windows® Operating System</productname>
+    <windowtitle>C:\Windows\system32\cmd.exe - dotnet  run</windowtitle>
+    <activetime>00:00:00</activetime>
+    <opentime>07-05-2020 Thu 10:46:32</opentime>
+    <changetime>07-05-2020 Thu 10:46:34</changetime>
+  </activities>
+  <activities>
+    <filename>C:\Users\PRABHUAPPU\AppData\Local\Programs\Microsoft VS Code\Code.exe</filename>
+    <filedesctiption>Visual Studio Code</filedesctiption>
+    <productname>Visual Studio Code</productname>
+    <windowtitle>Activities_Copy.xml - SampleApp - Visual Studio Code</windowtitle>
+    <activetime>00:00:00</activetime>
+    <opentime>07-05-2020 Thu 10:46:34</opentime>
+    <changetime>07-05-2020 Thu 10:46:37</changetime>
+  </activities>
+  <activities>
+    <filename>C:\Users\PRABHUAPPU\AppData\Local\Programs\Microsoft VS Code\Code.exe</filename>
+    <filedesctiption>Visual Studio Code</filedesctiption>
+    <productname>Visual Studio Code</productname>
+    <windowtitle>Activities.xml - SampleApp - Visual Studio Code</windowtitle>
+    <activetime>00:00:00</activetime>
+    <opentime>07-05-2020 Thu 10:46:37</opentime>
+    <changetime>07-05-2020 Thu 10:47:11</changetime>
+  </activities>
+  <activities>
+    <filename>C:\Users\PRABHUAPPU\AppData\Local\Programs\Microsoft VS Code\Code.exe</filename>
+    <filedesctiption>Visual Studio Code</filedesctiption>
+    <productname>Visual Studio Code</productname>
+    <windowtitle>Program.cs - SampleApp - Visual Studio Code</windowtitle>
+    <activetime>00:00:23</activetime>
+    <opentime>07-05-2020 Thu 10:48:54</opentime>
+    <changetime>07-05-2020 Thu 10:47:34</changetime>
+  </activities>
+  <activities>
+    <filename>C:\Users\PRABHUAPPU\AppData\Local\Programs\Microsoft VS Code\Code.exe</filename>
+    <filedesctiption>Visual Studio Code</filedesctiption>
+    <productname>Visual Studio Code</productname>
+    <windowtitle>● Program.cs - SampleApp - Visual Studio Code</windowtitle>
+    <activetime>00:00:00</activetime>
+    <opentime>07-05-2020 Thu 10:47:34</opentime>
+    <changetime>07-05-2020 Thu 10:48:54</changetime>
+  </activities>
+</office>
